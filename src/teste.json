@@ -1,0 +1,105 @@
+[{
+  "by": "geo_ip",
+  "valid_key": true,
+  "results": {
+  "temp": 21,
+  "date": "22/12/2021",
+  "time": "20:37",
+  "condition_code": "45",
+  "description": "Chuva",
+  "currently": "noite",
+  "cid": "",
+  "city": "São Paulo, SP",
+  "img_id": "45n",
+  "humidity": 91,
+  "wind_speedy": "1.03 km/h",
+  "sunrise": "05:17 am",
+  "sunset": "06:52 pm",
+  "condition_slug": "rain",
+  "city_name": "São Paulo",
+  "forecast": [
+  {
+  "date": "22/12",
+  "weekday": "Qua",
+  "max": 32,
+  "min": 19,
+  "description": "Chuva",
+  "condition": "rain"
+  },
+  {
+  "date": "23/12",
+  "weekday": "Qui",
+  "max": 22,
+  "min": 17,
+  "description": "Chuvas esparsas",
+  "condition": "rain"
+  },
+  {
+  "date": "24/12",
+  "weekday": "Sex",
+  "max": 24,
+  "min": 15,
+  "description": "Chuvas esparsas",
+  "condition": "rain"
+  },
+  {
+  "date": "25/12",
+  "weekday": "Sáb",
+  "max": 28,
+  "min": 14,
+  "description": "Tempo nublado",
+  "condition": "cloudly_day"
+  },
+  {
+  "date": "26/12",
+  "weekday": "Dom",
+  "max": 31,
+  "min": 16,
+  "description": "Parcialmente nublado",
+  "condition": "cloudly_day"
+  },
+  {
+  "date": "27/12",
+  "weekday": "Seg",
+  "max": 31,
+  "min": 20,
+  "description": "Chuvas esparsas",
+  "condition": "rain"
+  },
+  {
+  "date": "28/12",
+  "weekday": "Ter",
+  "max": 31,
+  "min": 19,
+  "description": "Chuva",
+  "condition": "rain"
+  },
+  {
+  "date": "29/12",
+  "weekday": "Qua",
+  "max": 24,
+  "min": 18,
+  "description": "Chuvas esparsas",
+  "condition": "rain"
+  },
+  {
+  "date": "30/12",
+  "weekday": "Qui",
+  "max": 24,
+  "min": 18,
+  "description": "Chuvas esparsas",
+  "condition": "rain"
+  },
+  {
+  "date": "31/12",
+  "weekday": "Sex",
+  "max": 30,
+  "min": 17,
+  "description": "Tempo limpo",
+  "condition": "clear_day"
+  }
+  ]
+  },
+  "execution_time": 0,
+  "from_cache": true
+  }]
