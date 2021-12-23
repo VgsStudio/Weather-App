@@ -1,4 +1,4 @@
-[{
+{
   "by": "geo_ip",
   "valid_key": true,
   "results": {
@@ -102,4 +102,4 @@
   },
   "execution_time": 0,
   "from_cache": true
-  }]
+  }

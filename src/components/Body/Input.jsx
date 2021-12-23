@@ -7,7 +7,7 @@ export default function Input() {
       <input
         className="input"
         type="text"
-        placeholder={msg}
+        placeholder={'Procure uma cidade'}
         onChange={(e) => setMsg(e.target.value)}
       ></input>
     </div>
