@@ -1,23 +1,9 @@
-import React, { useEffect } from "react";
-import data from "../../teste.json";
+import React from "react";
+// import data from "../../teste.json";
 
 export default function WeatherDays(props) {
-  const fetchData = () => {
-    return fetch(
-      "https://api.hgbrasil.com/weather?key=e3bfc7bb&user_ip=remote",
-      { mode: "no-cors" }
-    )
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  props.childChangeCidade(data[0].results.city);
-
-  let forecast = data[0].results.forecast.slice(0, 5);
+  console.log('ta chegando:', props.data)
+  let forecast = props.data.results.forecast.slice(0, 5);
   function getForecastDays() {
     return forecast.map((days) => {
       return (
